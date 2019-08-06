@@ -8,6 +8,17 @@ BasilESC.C
 - Originially written in arduino C: modified to run in console.
 
 Coordinate_tracker.circ
+- Simulated hardware/logic that keeps track of the user's x,y location and displays various calculated values
 - Digital logic final project. 
 - Written/Run using Logisim.
-- 
+
+Canisters
+- tanks shooter game
+- Object oriented programing final project.
+- Written in Python 3.7
+- Colaborated with one other team member
+
+Kythera
+- Planetary orbit model simulation
+- Applied Programming final project
+- Written in Python 3.7, alongside 6 othewr programmers
