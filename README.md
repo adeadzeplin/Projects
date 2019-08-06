@@ -22,3 +22,5 @@ Kythera
 - Planetary orbit model simulation
 - Applied Programming final project
 - Written in Python 3.7, alongside 6 othewr programmers
+- Original repository found at: https://github.com/smithdepazd/Kythera
+
