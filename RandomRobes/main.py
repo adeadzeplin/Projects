@@ -125,18 +125,20 @@ def generateValues(maxnumofcolors):
 
 
 def makeSkins():
-    YeeOlelist = generateValues(100000)
+    skin_num = 10
+    
+    YeeOlelist = generateValues(skin_num) # will generate n number of random color pallets
     i = len(YeeOlelist)
     for col in YeeOlelist:
 
-        CreateNewSkin(col)
+        CreateNewSkin(col)  # create a new set of sprite files using the current collor pallete col 
         print('skins to go: ' + str(i)+ '\n')
         i -= 1
 
 
 
 if __name__ == "__main__":
-    # makeSkins()
+    makeSkins()
     updateFiles()
 
 
