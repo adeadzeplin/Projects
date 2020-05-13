@@ -1,3 +1,17 @@
 Object Oriented Programing final project.
 Tanks game created from scratch. 
-Exe available for download and play if you don't care about the code
+.Exe available for download and play if you don't care about the code.
+
+wasd to move
+mouse click to shoot
+
+Most everything is encapulated in objects.
+Levels are randomly generated at the start of booting. 
+Each level is scaled up in difficultly the further you progress.
+Enemy Ai: targets the nearest tank to it, attempts to avoid being shot while also shooting others
+all tanks are destroyed when killed.
+When any tank kills another tank it receives an upgrade to an inherited class type. (Tracking bullets)
+Walls are generated randomly around the screen. 
+Wall Collision enabled for tanks and bullets.
+get through 10 levels to win.
+
