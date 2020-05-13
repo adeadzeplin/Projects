@@ -101,33 +101,3 @@ def edit_lua_files():
     lua_output.writelines(prime_in)
     lua_output.close()
 
-    # for j, a_color in enumerate(list_of_colors):
-    #     dne_Flag = True
-    #     temp_path = []
-    #     for i, line in enumerate(prime_in, magic_number):
-    #         temp_path = 'ModDevGenerateSpriteUVsForDirectory( "' + mod_path + a_color + '" )\n'
-    #         if line == temp_path:
-    #             list_of_colors.pop(j)
-    #             dne_Flag = False
-    #             break
-    #     if dne_Flag:
-    #         prime_in.append(temp_path)
-    # f1 = f.readlines()
-    # output = []
-    #
-    # for x in f1:
-    #
-    #     x.split(" ")
-    #     output.append(x.replace(',', '').strip('\n'))
-    #
-    # folder_name = output.pop(0)
-    #
-    #
-    # palette = []
-    # for x in output:
-    #     palette.append(x.split(" "))
-    #
-    # for x in palette:
-    #     for y in range(0, len(x)):
-    #         x[y] = int(x[y])
-    #     x.append(255)
