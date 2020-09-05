@@ -1,4 +1,4 @@
-# Projects
+# School Projects
 This is a compilation of my personal and school projects
 
 BasilESC.C 
